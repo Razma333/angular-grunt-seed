@@ -1,0 +1,22 @@
+{
+  "name": "angular-grunt-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Raz mantzur",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "grunt": "~1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "load-grunt-tasks": "~3.5.2",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-cssmin": "~1.0.2",
+    "time-grunt": "~1.4.0",
+    "bower": "~1.4.1"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="build/dist/styles.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <a ui-sref="home" ui-sref-active="active-view">Home</a>
+        <a ui-sref="login" ui-sref-active="active-view">Login</a>
+        <a ui-sref="about" ui-sref-active="active-view">About</a>
+    </nav>
+    <div class="container">
+        <ui-view></ui-view>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="build/dist/main.min.js"></script>
+</body>
+
+</html>
