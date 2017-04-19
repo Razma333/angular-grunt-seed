@@ -66,7 +66,7 @@ module.exports = grunt => {
                     port: 8000,
                     hostname: 'localhost',
                     open: true,
-                    base: ['app'],
+                    base: ['app']
                 }
             }
         }
